@@ -19,6 +19,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class publishProductServlet extends HttpServlet {
@@ -32,7 +34,6 @@ public class publishProductServlet extends HttpServlet {
         UploadFileImg uploadFileImg = new UploadFileImg();
         filePath = uploadFileImg.UploadImg(request);
         if(filePath != null){
-            System.out.println(filePath+ "<------------------------");
             response.setCharacterEncoding("utf-8");
             Writer out = response.getWriter();
             out.write(filePath);
@@ -48,9 +49,13 @@ public class publishProductServlet extends HttpServlet {
             String mkgid = UUID.randomUUID().toString().replace("-","");
             market.setMkid(mkid);
             market.setMkgid(mkgid);
-            market.setMktime(new Date().toString());
+            DateFormat format1 = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+            String date = format1.format(new Date());
+            market.setMktime(date);
             market.setMkimg(photoPath);
             System.out.println(market);
+            MarketDao marketDao = new MarketDao();
+            marketDao.insertMarket(market);
 
 
             switch (market.getMkname()){
@@ -60,6 +65,16 @@ public class publishProductServlet extends HttpServlet {
                     fcosmetics.setFcid(mkgid);
                     fcosmetics.setFcimg(photoPath);
                     System.out.println(fcosmetics.toString());
+                    CosmeticsDao cosmeticsDao = new CosmeticsDao();
+                    cosmeticsDao.insertCosmetics(fcosmetics);
+                case "1" :
+                    Fudisk  fudisk = new Fudisk();
+                    fudisk.setParameters(fieldMap);
+                    fudisk.setFuid(mkgid);
+                    fudisk.setFuimg(photoPath);
+                    System.out.println(fudisk);
+                    UDiskDao uDiskDao = new UDiskDao();
+                    uDiskDao.insertUDisk(fudisk);
             }
         }
     }

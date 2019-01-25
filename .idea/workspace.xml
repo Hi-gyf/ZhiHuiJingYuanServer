@@ -10,36 +10,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e7e5ea1-1825-4b85-a8d2-c95f469a979d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dao/FclothesDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/FindDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/ForderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/LoseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pojo/encapsulation/MarketProductDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/Utils/UploadFileImg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/Utils/UploadFileImg.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/dao/MarketDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/dao/MarketDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fcosmetics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fcosmetics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Market.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Market.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fbook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fbook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fcard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fcard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fclothes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fclothes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Forder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Forder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fudisk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fudisk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fwallet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Fwallet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Lose.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Lose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Reback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/Reback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/servlet/UploadPhotoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/servlet/UploadPhotoServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/servlet/publishProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/classes/servlet/publishProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wx_manage_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/wx_manage/Utils/UploadFileImg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/Utils/UploadFileImg.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/wx_manage/dao/MarketDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/dao/MarketDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fcosmetics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fcosmetics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/pojo/Market.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/pojo/Market.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fbook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fbook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fcard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fcard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fclothes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fclothes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/pojo/Forder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/pojo/Forder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fudisk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fudisk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fwallet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/pojo/Fwallet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/pojo/Lose.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/pojo/Lose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/pojo/Reback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/pojo/Reback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wx_manage/servlet/UploadPhotoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/servlet/UploadPhotoServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/wx_manage/servlet/publishProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wx_manage/servlet/publishProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/UploadFileImg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/UploadFileImg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/AbstractDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/MarketDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/MarketDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Fbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Fbook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Fcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Fcard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Fclothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Fclothes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Fcosmetics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Fcosmetics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Forder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Forder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Fudisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Fudisk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Fwallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Fwallet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Lose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Lose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Market.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Reback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Reback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/servlet/publishProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/publishProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/showProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/showProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,49 +59,49 @@
     <session id="631654536">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="101" />
+          <entry key="java" value="118" />
           <entry key="jsp" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="101" />
+          <entry key="JAVA" value="118" />
           <entry key="JSP" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="6348" />
+          <entry key="java" value="7133" />
           <entry key="txt" value="13" />
-          <entry key="xml" value="96" />
+          <entry key="xml" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6348" />
+          <entry key="JAVA" value="7133" />
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="XML" value="96" />
+          <entry key="XML" value="128" />
         </counts>
       </usages-collector>
     </session>
@@ -111,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/showProductServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="216">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,28 +124,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/ForderDao.java">
+        <entry file="file://$PROJECT_DIR$/src/pojo/encapsulation/AllItemsShowList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="117" column="54" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
+            <state relative-caret-position="243">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/LoseDao.java">
+        <entry file="file://$PROJECT_DIR$/src/pojo/encapsulation/AllMarketShowList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="38" column="80" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
+            <state relative-caret-position="297">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="e#265#266#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/src/pojo/encapsulation/MarketProductDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-486">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="297">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/servlet/publishProductServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,17 +177,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/FindDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
+            <state relative-caret-position="405">
               <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pojo/User.java">
+        <entry file="file://$PROJECT_DIR$/src/dao/MarketDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="-7">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,35 +195,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/servlet/UploadPhotoServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/FclothesDao.java">
+        <entry file="file://$PROJECT_DIR$/src/pojo/Market.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pojo/Fclothes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="297">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -205,11 +210,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/AbstractDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-              <folding>
-                <element signature="e#1493#1501#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -243,20 +245,14 @@
         <option value="$PROJECT_DIR$/src/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/servlet/wxloginServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/wxRegisteredServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/UploadPhotoServlet.java" />
         <option value="$PROJECT_DIR$/src/dao/CosmeticsDao.java" />
         <option value="$PROJECT_DIR$/src/dao/UDiskDao.java" />
         <option value="$PROJECT_DIR$/src/pojo/encapsulation/AllMarketShowList.java" />
         <option value="$PROJECT_DIR$/src/dao/MarketListDao.java" />
         <option value="$PROJECT_DIR$/src/tests/MarketDaoTest.java" />
         <option value="$PROJECT_DIR$/src/servlet/showMarket.java" />
-        <option value="$PROJECT_DIR$/src/dao/AbstractDao.java" />
         <option value="$PROJECT_DIR$/src/servlet/showMarketServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/servlet/showProductServlet.java" />
-        <option value="$PROJECT_DIR$/src/dao/MarketDao.java" />
         <option value="$PROJECT_DIR$/src/pojo/Market.java" />
-        <option value="$PROJECT_DIR$/src/servlet/publishProductServlet.java" />
         <option value="$PROJECT_DIR$/src/Utils/UploadFileImg.java" />
         <option value="$PROJECT_DIR$/src/pojo/Fbook.java" />
         <option value="$PROJECT_DIR$/src/pojo/Fcard.java" />
@@ -272,6 +268,13 @@
         <option value="$PROJECT_DIR$/src/dao/ForderDao.java" />
         <option value="$PROJECT_DIR$/src/dao/LoseDao.java" />
         <option value="$PROJECT_DIR$/src/dao/FindDao.java" />
+        <option value="$PROJECT_DIR$/src/servlet/UploadPhotoServlet.java" />
+        <option value="$PROJECT_DIR$/src/dao/AbstractDao.java" />
+        <option value="$PROJECT_DIR$/src/dao/MarketDao.java" />
+        <option value="$PROJECT_DIR$/src/servlet/showProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/pojo/encapsulation/MarketProductDetail.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/servlet/publishProductServlet.java" />
       </list>
     </option>
   </component>
@@ -288,7 +291,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
@@ -299,9 +302,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,12 +324,6 @@
               <item name="wx_manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="wx_manage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wx_manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wx_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -343,23 +337,32 @@
               <item name="wx_manage" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wx_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548247613537" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548411799045" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15267856" />
     <property name="project.structure.side.proportion" value="0.33791748" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -372,11 +375,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code_src\java_web\wx_manage\src\servlet" />
       <recent name="D:\code_src\java_web\wx_manage\src\dao" />
       <recent name="D:\code_src\java_web\wx_manage\src\Utils" />
       <recent name="D:\code_src\java_web\wx_manage\src\pojo\encapsulation" />
       <recent name="D:\code_src\java_web\wx_manage\src\pojo" />
-      <recent name="D:\code_src\java_web\wx_manage\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -795,7 +798,8 @@
       <workItem from="1543038887842" duration="1439000" />
       <workItem from="1543066957127" duration="791000" />
       <workItem from="1548143983126" duration="2971000" />
-      <workItem from="1548221046125" duration="21870000" />
+      <workItem from="1548221046125" duration="24285000" />
+      <workItem from="1548383675526" duration="6913000" />
     </task>
     <task id="LOCAL-00001" summary="上传智慧经院小程序后端代码">
       <created>1548144865631</created>
@@ -808,13 +812,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81372000" />
+    <option name="totallyTimeSpent" value="90700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.21255673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.21558245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -824,7 +828,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.06403941" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19704433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -903,30 +907,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/MarketListDao.java" />
     <entry file="file://$PROJECT_DIR$/src/tests/MarketDaoTest.java" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/encapsulation/AllItemsShowList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/encapsulation/AllMarketShowList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/wxloginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -934,13 +914,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/CosmeticsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -972,36 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/showMarketServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/MarketDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/publishProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="57" column="61" lean-forward="true" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,40 +999,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/Fudisk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/Fwallet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pojo/Lose.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
           <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/Market.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1106,30 +1019,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/User.java">
+    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="243">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/UploadPhotoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-          <folding>
-            <element signature="e#1493#1501#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/servlet/wxLostItemServlet.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pojo/Fclothes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="135">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#913#914#0" expanded="true" />
@@ -1140,55 +1053,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/FclothesDao.java">
+    <entry file="file://$PROJECT_DIR$/src/servlet/wxLodingFindLostServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/showProductServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/dao/LoseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="891">
+          <caret line="38" column="80" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/ForderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="117" column="54" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/CosmeticsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/FclothesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/ForderDao.java">
+    <entry file="file://$PROJECT_DIR$/src/pojo/Fudisk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="117" column="54" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
+        <state relative-caret-position="351">
+          <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/LoseDao.java">
+    <entry file="file://$PROJECT_DIR$/src/servlet/showMarketServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="38" column="80" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
+        <state relative-caret-position="161">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/pojo/Fwallet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="328">
+          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/FindDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="405">
           <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/UploadPhotoServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/dao/MarketDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="-7">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/encapsulation/AllItemsShowList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/encapsulation/AllMarketShowList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/Market.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/encapsulation/MarketProductDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/showProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/publishProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1251,7 +1272,6 @@
             <option name="proportions">
               <list>
                 <option value="0.33791748" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

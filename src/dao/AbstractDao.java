@@ -59,7 +59,7 @@ public class AbstractDao {
 
 	public Vector<Vector<Object>> select(String sql,Object[] values){
 		Vector<Vector<Object>> all = new Vector<Vector<Object>>();
-		Vector<Object> line = new Vector<Object>();
+		Vector<Object> line = null;
 		Connection conn = null;
 		PreparedStatement preStmt = null;
 		ResultSet rs = null;
