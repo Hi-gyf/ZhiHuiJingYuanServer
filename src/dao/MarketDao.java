@@ -11,6 +11,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Vector;
 
 
@@ -26,15 +27,15 @@ public class MarketDao extends AbstractDao{
         List<AllMarketShowList> marketShowList = new ArrayList<AllMarketShowList>();
         AllMarketShowList marketItem = null;
         String sql = "select mkid,mktitle,mkprice,mkimg from market order by mktime desc";
-        Vector<Vector<Object>> dataTable = super.select(sql,null);
-        Vector<Object> dataLine;
+        Vector<Map<String,String>> dataTable = super.select(sql,null);
+        Map<String,String> dataLine;
         for(int i = 0; i < dataTable.size(); i++){
             dataLine = dataTable.get(i);
             marketItem = new AllMarketShowList();
-            marketItem.setMkid(dataLine.get(0).toString());
-            marketItem.setMkTitle(dataLine.get(1).toString());
-            marketItem.setMkPrice(dataLine.get(2).toString());
-            marketItem.setMkImg(dataLine.get(3).toString());
+            marketItem.setMkid(dataLine.get(0));
+            marketItem.setMkTitle(dataLine.get(1));
+            marketItem.setMkPrice(dataLine.get(2));
+            marketItem.setMkImg(dataLine.get(3));
             marketShowList.add(marketItem);
         }
         return marketShowList;
@@ -43,17 +44,10 @@ public class MarketDao extends AbstractDao{
     public Market selectMarketById(String mkid){
         Market market = null;
         String sql = "select * from market where mkid = ?";
-        Vector<Object> rs = super.select(sql,new Object[]{mkid}).get(0);
+        Map<String,String> rs = super.select(sql,new Object[]{mkid}).get(0);
         if(rs != null){
            market = new Market();
-           market.setMkid(rs.get(0).toString());
-           market.setMkpid(rs.get(1).toString());
-           market.setMkgid(rs.get(2).toString());
-           market.setMktime(rs.get(3).toString());
-           market.setMkprice(Double.valueOf(rs.get(4).toString()));
-           market.setMkname(rs.get(5).toString());
-           market.setMktitle(rs.get(6).toString());
-           market.setMkimg(rs.get(7).toString());
+           market.setParameters(rs);
         }
         return market;
     }

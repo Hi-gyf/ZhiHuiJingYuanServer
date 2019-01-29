@@ -3,6 +3,8 @@ package dao;
 import Utils.JDBCUtil;
 
 import java.sql.*;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Vector;
 
 public class AbstractDao {
@@ -57,9 +59,9 @@ public class AbstractDao {
 	}
 	
 
-	public Vector<Vector<Object>> select(String sql,Object[] values){
-		Vector<Vector<Object>> all = new Vector<Vector<Object>>();
-		Vector<Object> line = null;
+	public Vector<Map<String,String>> select(String sql, Object[] values){
+		Vector<Map<String,String>> all = new Vector<Map<String,String>>();
+		Map<String,String> line = null;
 		Connection conn = null;
 		PreparedStatement preStmt = null;
 		ResultSet rs = null;
@@ -77,9 +79,9 @@ public class AbstractDao {
 			rsmd = rs.getMetaData();
 			int count = rsmd.getColumnCount();
 			while(rs.next()){
-				line = new Vector<Object>();
+				line = new HashMap<String,String>();
 				for(int i = 1; i <= count; i++){
-					line.add(rs.getObject(i));
+					line.put(rsmd.getColumnName(i),rs.getString(i));
 				}
 				all.add(line);
 			}
@@ -90,9 +92,9 @@ public class AbstractDao {
 		}
 		return all;
 	}
-	
-	public Object[] find(String sql,Object[] values){
-		Object[] ok = null;
+
+	public Map<String,String> find(String sql, Object[] values){
+		Map ok = null;
 		Connection conn = null;
 		PreparedStatement preStmt = null;
 		ResultSet rs = null;
@@ -101,16 +103,19 @@ public class AbstractDao {
 			conn = JDBCUtil.getConn();
 			preStmt = conn.prepareStatement(sql);
 			if(values != null)
-			for(int i = 0; i < values.length; i++)
-			{
-				preStmt.setObject(i+1, values[i]);
-			}
+				for(int i = 0; i < values.length; i++)
+				{
+					preStmt.setObject(i+1, values[i]);
+				}
 			rs = preStmt.executeQuery();
 			rsmd = rs.getMetaData();
 			if(rs.next()){
-				ok = new Object[rsmd.getColumnCount()];
-				for(int i = 1; i <= rsmd.getColumnCount();i++){					
-					ok[i - 1] = rs.getObject(i);
+				ok = new HashMap<String,String>();
+
+				for(int i = 1; i <= rsmd.getColumnCount();i++){
+					String columnName = rsmd.getColumnName(i).toLowerCase();//获得表字段名
+					String columnValue = rs.getString(i);
+					ok.put(columnName,columnValue);
 				}
 			}
 		}catch(SQLException e){

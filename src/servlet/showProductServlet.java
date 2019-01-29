@@ -17,6 +17,7 @@ public class showProductServlet extends HttpServlet {
         MarketDao marketDao = new MarketDao();
         Market market = marketDao.selectMarketById(mkId);
 
+
     }
 
     @Override
