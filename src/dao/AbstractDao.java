@@ -17,9 +17,9 @@ public class AbstractDao {
 			conn = JDBCUtil.getConn();
 			preStmt = conn.prepareStatement(sql);
 			if(values != null)
-			for(int i = 0; i < values.length; i++){
-				preStmt.setObject(i+1, values[i]);
-			}
+				for(int i = 0; i < values.length; i++){
+					preStmt.setObject(i+1, values[i]);
+				}
 			preStmt.executeUpdate();
 			successCount = preStmt.getUpdateCount();
 		}catch(SQLException e){
@@ -31,7 +31,7 @@ public class AbstractDao {
 		}
 		return successCount;
 	}
-	
+
 	public int updateall(String sql , Object[][] values){
 		int ok  = 0;
 		Connection conn = null;
@@ -40,12 +40,12 @@ public class AbstractDao {
 			conn = JDBCUtil.getConn();
 			preStmt = conn.prepareStatement(sql);
 			if(values != null)
-			for(int i = 0; i < values.length; i++){
-				for(int j = 0; j < values[i].length; j++){					
-					preStmt.setObject(j+1, values[i][j]);
+				for(int i = 0; i < values.length; i++){
+					for(int j = 0; j < values[i].length; j++){
+						preStmt.setObject(j+1, values[i][j]);
+					}
+					preStmt.addBatch();
 				}
-				preStmt.addBatch();
-			}
 			int[] rows = preStmt.executeBatch();
 			ok = rows.length;
 		}catch(SQLException e){
@@ -57,7 +57,7 @@ public class AbstractDao {
 		}
 		return ok;
 	}
-	
+
 
 	public Vector<Map<String,String>> select(String sql, Object[] values){
 		Vector<Map<String,String>> all = new Vector<Map<String,String>>();
@@ -70,7 +70,7 @@ public class AbstractDao {
 			conn = JDBCUtil.getConn();
 			preStmt = conn.prepareStatement(sql);
 			if(values != null)
-			{				
+			{
 				for(int i = 0; i < values.length; i++){
 					preStmt.setObject(i+1, values[i]);
 				}
@@ -81,7 +81,9 @@ public class AbstractDao {
 			while(rs.next()){
 				line = new HashMap<String,String>();
 				for(int i = 1; i <= count; i++){
-					line.put(rsmd.getColumnName(i),rs.getString(i));
+					//rsmd.getColumnName(i)是获得原始列名
+					line.put(rsmd.getColumnLabel(i),rs.getString(i));
+					System.out.println("columnName = " + rsmd.getColumnName(i) + ", value = "+rs.getString(i));
 				}
 				all.add(line);
 			}
@@ -92,6 +94,7 @@ public class AbstractDao {
 		}
 		return all;
 	}
+
 
 	public Map<String,String> find(String sql, Object[] values){
 		Map ok = null;
@@ -113,7 +116,8 @@ public class AbstractDao {
 				ok = new HashMap<String,String>();
 
 				for(int i = 1; i <= rsmd.getColumnCount();i++){
-					String columnName = rsmd.getColumnLabel(i).toLowerCase();//获得表字段名
+					//String columnName = rsmd.getColumnName(i)//获得原始列名
+					String columnName = rsmd.getColumnLabel(i);
 					String columnValue = rs.getString(i);
 					ok.put(columnName,columnValue);
 				}
