@@ -1,6 +1,8 @@
 package servlet;
 
 import dao.MarketDao;
+import dao.UserDao;
+import org.apache.commons.beanutils.BeanMap;
 import pojo.Market;
 
 import javax.servlet.ServletException;
@@ -8,6 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Map;
 
 public class showProductServlet extends HttpServlet {
     @Override
@@ -16,7 +19,10 @@ public class showProductServlet extends HttpServlet {
         String mkId = request.getParameter("mkid");
         MarketDao marketDao = new MarketDao();
         Market market = marketDao.selectMarketById(mkId);
+        Map<String,String> marketMap = new BeanMap(market);
 
+        String userId = marketMap.get("mkgid");
+        Map<String,String> userMap = new BeanMap();
 
     }
 

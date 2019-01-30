@@ -1,6 +1,10 @@
 package pojo.encapsulation;
 
+import org.apache.commons.beanutils.ConvertUtils;
+
+import java.lang.reflect.Field;
 import java.util.Date;
+import java.util.Map;
 
 /**
  * 根据页面的显示信息，来封装，没必要将所有的数据都查出来，保存在前端
@@ -105,5 +109,20 @@ public class AllItemsShowList {
                 ", date='" + date + '\'' +
                 ", status=" + status +
                 '}';
+    }
+
+    public void setParameters(Map<String,String> map){
+        Class clazz = this.getClass();
+        Field[] fields = clazz.getDeclaredFields();
+        for(Field field : fields){
+            String fieldName = field.getName();
+            if(map.containsKey(fieldName)){
+                try {
+                    field.set(this, ConvertUtils.convert(map.get(fieldName), field.getType()));
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 }

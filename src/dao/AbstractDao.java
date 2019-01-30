@@ -113,7 +113,7 @@ public class AbstractDao {
 				ok = new HashMap<String,String>();
 
 				for(int i = 1; i <= rsmd.getColumnCount();i++){
-					String columnName = rsmd.getColumnName(i).toLowerCase();//获得表字段名
+					String columnName = rsmd.getColumnLabel(i).toLowerCase();//获得表字段名
 					String columnValue = rs.getString(i);
 					ok.put(columnName,columnValue);
 				}
